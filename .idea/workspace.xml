@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b01189a2-c26c-4d55-8461-5eb03a13218f" name="Changes" comment="Created Pixel class">
-      <change afterPath="$PROJECT_DIR$/src/bwinf/model/Cristal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bwinf/model/Picture.java" afterDir="false" />
+    <list default="true" id="b01189a2-c26c-4d55-8461-5eb03a13218f" name="Changes" comment="intellij">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cristals.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bwinf/logic/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bwinf/model/Cristal.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/testPicture.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bwinf/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bwinf/logic/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bwinf/model/Pixel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bwinf/model/Pixel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BWINF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BWINF.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwinf/Builder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwinf/model/Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bwinf/model/Picture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwinf/model/Pixel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bwinf/model/Pixel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666968608419</updated>
-      <workItem from="1666968610007" duration="3583000" />
+      <workItem from="1666968610007" duration="4166000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1666969636170</created>
@@ -95,7 +99,28 @@
       <option name="project" value="LOCAL" />
       <updated>1666969649168</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="format fix">
+      <created>1666972286144</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666972286144</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added picture class">
+      <created>1666972316020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666972316020</updated>
+    </task>
+    <task id="LOCAL-00005" summary="intellij">
+      <created>1666972324852</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666972324852</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +141,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Created Pixel class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Pixel class" />
+    <MESSAGE value="format fix" />
+    <MESSAGE value="Added picture class" />
+    <MESSAGE value="intellij" />
+    <option name="LAST_COMMIT_MESSAGE" value="intellij" />
   </component>
 </project>
