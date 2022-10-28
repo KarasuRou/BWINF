@@ -67,7 +67,7 @@ public class Pixel {
     //</editor-fold>
 
     @Override
-    public String toString(){
+    public String toString() {
         return String.format("RGBa: %d|%d|%d|%d", red, green, blue, alpha);
     }
 }
