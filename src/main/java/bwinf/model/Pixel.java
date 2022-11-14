@@ -31,6 +31,14 @@ public class Pixel {
         this.blue = blue;
         this.alpha = alpha;
     }
+
+    public Pixel(int red, int green, int blue, int alpha, int id) {
+        this.red = red;
+        this.green = green;
+        this.blue = blue;
+        this.alpha = alpha;
+        this.id = id;
+    }
     //</editor-fold>
 
     //<editor-fold desc="Getter and Setter">
