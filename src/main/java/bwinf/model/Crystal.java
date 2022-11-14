@@ -30,10 +30,12 @@ public class Crystal {
         if (id != -1 && !finished) {
             if (passthroughs == spawn_time) {
                 if (pixels[startPoint_width][startPoint_height] == null) {
-                    pixels[startPoint_width][startPoint_height] = new Pixel(color, color, color, 255, id);
+                    pixels[startPoint_width][startPoint_height] = getPixel(pixels, startPoint_width, startPoint_height);
                 } else {
                     finished = true;
                 }
+            } else if (passthroughs == 60) {
+                finished = true;
             } else if (passthroughs >= spawn_time) {
                 if (pixels[startPoint_width][startPoint_height] != null && pixels[startPoint_width][startPoint_height].getId() == id) {
                     pixels = growFromPoint(pixels, startPoint_width, startPoint_height);
@@ -47,37 +49,84 @@ public class Crystal {
     }
 
     private Pixel[][] growFromPoint(Pixel[][] pixels, int width, int height) {
+        if (width < 0 || height < 0 || pixels.length <= width || pixels[0].length <= height)
+            return pixels;
+
         if (pixels[width][height] == null) {
-            placePixel(pixels, width, height);
+            pixels[width][height] = getPixel(pixels, width, height);
         } else if (pixels[width][height] != null && pixels[width][height].getId() == id) {
             // Top
-            for (int grow = 0; grow < grow_top; grow++) {
-                placePixel(pixels, width, height + grow);
+            for (int grow = 1; grow <= grow_top; grow++) {
+                try {
+                    pixels[width][height - grow] = getPixel(pixels, width, height - grow);
+                } catch (Exception ignore) {}
             }
             // Bottom
-            for (int grow = 0; grow < grow_down; grow++) {
-                placePixel(pixels, width, height - grow);
+            for (int grow = 1; grow <= grow_down; grow++) {
+                try {
+                    pixels[width][height + grow] = getPixel(pixels, width, height + grow);
+                } catch (Exception ignore) {}
             }
             // Right
-            for (int grow = 0; grow < grow_right; grow++) {
-                placePixel(pixels, width + grow, height);
+            for (int grow = 1; grow <= grow_right; grow++) {
+                try {
+                    pixels[width + grow][height] = getPixel(pixels, width + grow, height);
+                } catch (Exception ignore) {}
             }
             // Left
-            for (int grow = 0; grow < grow_left; grow++) {
-                placePixel(pixels, width - grow, height);
+            for (int grow = 1; grow <= grow_left; grow++) {
+                try {
+                    pixels[width - grow][height] = getPixel(pixels, width - grow, height);
+                } catch (Exception ignore) {}
             }
             // Top-Left
+            for (int grow_top = 0; grow_top < this.grow_top; grow_top++) {
+                for (int grow_left = 1; grow_left <= this.grow_left; grow_left++) {
+                    int min = Math.min(width - grow_left + grow_top, width);
+                    try {
+                        pixels[min][height - grow_top] = getPixel(pixels, min, height - grow_top);
+                    } catch (Exception ignore) {}
+                }
+            }
             // Top-Right
+            for (int grow_top = 0; grow_top < this.grow_top; grow_top++) {
+                for (int grow_right = 1; grow_right <= this.grow_right; grow_right++) {
+                    int max = Math.max(width + grow_right - grow_top,width);
+                    try {
+                        pixels[max][height - grow_top] = getPixel(pixels, max, height - grow_top);
+                    } catch (Exception ignore) {}
+                }
+            }
             // Bottom-Right
+            for (int grow_down = 0; grow_down < this.grow_down; grow_down++) {
+                for (int grow_right = 1; grow_right <= this.grow_right; grow_right++) {
+                    int max = Math.max(width + grow_right - grow_down, width);
+                    try {
+                        pixels[max][height + grow_down] = getPixel(pixels, max, height + grow_down);
+                    } catch (Exception ignore) {}
+                }
+            }
             // Bottom-Left
+            for (int grow_down = 0; grow_down < this.grow_down; grow_down++) {
+                for (int grow_left = 1; grow_left <= this.grow_left; grow_left++) {
+                    int min = Math.min(width - grow_left + grow_down, width);
+                    try {
+                        pixels[min][height + grow_down] = getPixel(pixels, min, height + grow_down);
+                    } catch (Exception ignore) {}
+                }
+            }
         }
         return pixels;
     }
 
-    private void placePixel(Pixel[][] pixels, int width, int height) {
-        try {
-            pixels[width][height] = new Pixel(color, color, color, 255, id);
-        } catch (Exception ignore) {}
+    private Pixel getPixel(Pixel[][] pixels, int width, int height) {
+        if (width < 0 || height < 0 || pixels.length <= width || pixels[0].length <= height)
+            throw new IndexOutOfBoundsException("Not Placeable");
+
+        if (pixels[width][height] == null) {
+            return new Pixel(color, color, color, 255, id);
+        }
+        throw new IndexOutOfBoundsException("Not Placeable");
     }
 
     public boolean finished() {
