@@ -41,7 +41,8 @@ public class Builder {
     }
 
     private static Picture buildPicture(JSONObject[] configs) {
-        final int width = 100, height = 100; // Test
+//        final int width = 100, height = 100; // Test
+        final int width = 1024, height = 768; // HD
 //        final int width = 1920, height = 1080; // Full HD
 //        final int width = 2160, height = 3840; // 4K
         Crystal[] crystals = new Crystal[configs.length];
