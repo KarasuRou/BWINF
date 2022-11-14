@@ -16,8 +16,8 @@ public class Crystal {
     private boolean finished = false;
 
     public Crystal(JSONObject object, int width, int height) {
-        startPoint_width = Math.min(object.getInt("startPoint_width"), width);
-        startPoint_height = Math.min(object.getInt("startPoint_height"), height);
+        startPoint_width = Math.min(object.getInt("startPoint_width"), width - 1);
+        startPoint_height = Math.min(object.getInt("startPoint_height"), height - 1);
         grow_top = Math.max(object.getInt("grow_top"), 1);
         grow_right = Math.max(object.getInt("grow_right"), 1);
         grow_down = Math.max(object.getInt("grow_down"), 1);
