@@ -7,6 +7,7 @@ public class Pixel {
     private int green;
     private int blue;
     private int alpha; // Transparency
+    private int id;
     //</editor-fold>
 
     //<editor-fold desc="Constructors">
@@ -64,10 +65,18 @@ public class Pixel {
     public void setAlpha(int alpha) {
         this.alpha = alpha;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
     //</editor-fold>
 
     @Override
     public String toString() {
-        return String.format("RGBa: %d|%d|%d|%d", red, green, blue, alpha);
+        return String.format("RGBa,id: %d|%d|%d|%d,%d", red, green, blue, alpha, id);
     }
 }
