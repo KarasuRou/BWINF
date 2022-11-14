@@ -4,6 +4,7 @@ import org.json.JSONObject;
 
 public class Crystal {
 
+    private int id = -1;
     private final int startPoint_width;
     private final int startPoint_height;
     private final int grow_top;
@@ -31,4 +32,12 @@ public class Crystal {
         return finished;
     }
 
+    //<editor-fold desc="Setter">
+    public void setId(int id) {
+        if (this.id != -1)
+            return;
+
+        this.id = id;
+    }
+    //</editor-fold>
 }

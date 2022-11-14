@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b01189a2-c26c-4d55-8461-5eb03a13218f" name="Changes" comment="Builder try">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20220924.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/crystals0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bwinf/model/Crystal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20180130.xml" beforeDir="false" />
+    <list default="true" id="b01189a2-c26c-4d55-8461-5eb03a13218f" name="Changes" comment="Move on to Laptop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BWINF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BWINF.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bwinf/logic/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bwinf/logic/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bwinf/model/Crystal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bwinf/model/Crystal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +42,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rouven/Documents/IdeaProjects/Auftraege/H.J.S/PI-Cams&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -82,7 +78,11 @@
       <option name="presentableId" value="Default" />
       <updated>1666968608419</updated>
       <workItem from="1666968610007" duration="7076000" />
-      <workItem from="1667136135555" duration="100000" />
+      <workItem from="1667136135555" duration="170000" />
+      <workItem from="1667296745801" duration="28000" />
+      <workItem from="1667328815506" duration="1993000" />
+      <workItem from="1668436436860" duration="13000" />
+      <workItem from="1668444842082" duration="1662000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1666969636170</created>
@@ -133,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666972854358</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Move on to Laptop">
+      <created>1667136299949</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667136299949</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +166,7 @@
     <MESSAGE value="intellij" />
     <MESSAGE value="Added Maven support" />
     <MESSAGE value="Builder try" />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder try" />
+    <MESSAGE value="Move on to Laptop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move on to Laptop" />
   </component>
 </project>
