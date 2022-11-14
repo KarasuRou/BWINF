@@ -2,6 +2,8 @@ package bwinf.model;
 
 import org.json.JSONObject;
 
+import java.util.Arrays;
+
 public class Crystal {
 
     private int id = -1;
@@ -36,16 +38,37 @@ public class Crystal {
                 }
             } else if (passthroughs == 60) {
                 finished = true;
-            } else if (passthroughs >= spawn_time) {
+            } else if (passthroughs == spawn_time+1) {
                 if (pixels[startPoint_width][startPoint_height] != null && pixels[startPoint_width][startPoint_height].getId() == id) {
                     pixels = growFromPoint(pixels, startPoint_width, startPoint_height);
                 } else {
                     finished = true;
                 }
+            } else if (passthroughs >= spawn_time) {
+                if (pixels[startPoint_width][startPoint_height] != null && pixels[startPoint_width][startPoint_height].getId() == id) {
+                    pixels = grow(pixels);
+                } else {
+                    finished = true;
+                }
             }
         }
-//        System.out.printf("S:%d; P:%d, F:%b\n", spawn_time, passthroughs, finished);
         return pixels;
+    }
+
+    private Pixel[][] grow(Pixel[][] pixels) {
+        Pixel[][] tempPixels = new Pixel[pixels.length][];
+        for (int i = 0; i < pixels.length; i++) {
+            tempPixels[i] = Arrays.copyOf(pixels[i], pixels[i].length);
+        }
+
+        for (int i = 0; i < pixels.length; i++) {
+            for (int j = 0; j < pixels[0].length; j++) {
+                if (pixels[i][j] != null && pixels[i][j].getId() == id) {
+                    tempPixels = growFromPoint(tempPixels, i, j);
+                }
+            }
+        }
+        return tempPixels;
     }
 
     private Pixel[][] growFromPoint(Pixel[][] pixels, int width, int height) {
