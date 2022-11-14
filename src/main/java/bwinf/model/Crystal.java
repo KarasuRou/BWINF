@@ -36,7 +36,7 @@ public class Crystal {
                 }
             } else if (passthroughs >= spawn_time) {
                 if (pixels[startPoint_width][startPoint_height] != null && pixels[startPoint_width][startPoint_height].getId() == id) {
-                    growFromPoint(pixels, startPoint_width, startPoint_height);
+                    pixels = growFromPoint(pixels, startPoint_width, startPoint_height);
                 } else {
                     finished = true;
                 }
@@ -46,18 +46,38 @@ public class Crystal {
         return pixels;
     }
 
-    private void growFromPoint(Pixel[][] pixels, int width, int height) {
+    private Pixel[][] growFromPoint(Pixel[][] pixels, int width, int height) {
         if (pixels[width][height] == null) {
-            pixels[width][height] = new Pixel(color, color, color, 255, id);
+            placePixel(pixels, width, height);
         } else if (pixels[width][height] != null && pixels[width][height].getId() == id) {
             // Top
-            // Top-Right
-            // Right
-            // Bottom-Right
+            for (int grow = 0; grow < grow_top; grow++) {
+                placePixel(pixels, width, height + grow);
+            }
             // Bottom
-            // Bottom-Left
+            for (int grow = 0; grow < grow_down; grow++) {
+                placePixel(pixels, width, height - grow);
+            }
+            // Right
+            for (int grow = 0; grow < grow_right; grow++) {
+                placePixel(pixels, width + grow, height);
+            }
+            // Left
+            for (int grow = 0; grow < grow_left; grow++) {
+                placePixel(pixels, width - grow, height);
+            }
             // Top-Left
+            // Top-Right
+            // Bottom-Right
+            // Bottom-Left
         }
+        return pixels;
+    }
+
+    private void placePixel(Pixel[][] pixels, int width, int height) {
+        try {
+            pixels[width][height] = new Pixel(color, color, color, 255, id);
+        } catch (Exception ignore) {}
     }
 
     public boolean finished() {
