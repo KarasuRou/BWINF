@@ -26,8 +26,38 @@ public class Crystal {
         color = object.getInt("color");
     }
 
-    public Pixel[][] grow(Pixel[][] pixels) {
-        return null;
+    public Pixel[][] grow(Pixel[][] pixels, int passthroughs) {
+        if (id != -1 && !finished) {
+            if (passthroughs == spawn_time) {
+                if (pixels[startPoint_width][startPoint_height] == null) {
+                    pixels[startPoint_width][startPoint_height] = new Pixel(color, color, color, 255, id);
+                } else {
+                    finished = true;
+                }
+            } else if (passthroughs >= spawn_time) {
+                if (pixels[startPoint_width][startPoint_height] != null && pixels[startPoint_width][startPoint_height].getId() == id) {
+                    growFromPoint(pixels, startPoint_width, startPoint_height);
+                } else {
+                    finished = true;
+                }
+            }
+        }
+//        System.out.printf("S:%d; P:%d, F:%b\n", spawn_time, passthroughs, finished);
+        return pixels;
+    }
+
+    private void growFromPoint(Pixel[][] pixels, int width, int height) {
+        if (pixels[width][height] == null) {
+            pixels[width][height] = new Pixel(color, color, color, 255, id);
+        } else if (pixels[width][height] != null && pixels[width][height].getId() == id) {
+            // Top
+            // Top-Right
+            // Right
+            // Bottom-Right
+            // Bottom
+            // Bottom-Left
+            // Top-Left
+        }
     }
 
     public boolean finished() {
