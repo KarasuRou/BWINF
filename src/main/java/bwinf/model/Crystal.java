@@ -55,63 +55,42 @@ public class Crystal {
         if (pixels[width][height] == null) {
             pixels[width][height] = getPixel(pixels, width, height);
         } else if (pixels[width][height] != null && pixels[width][height].getId() == id) {
-            // Top
-            for (int grow = 1; grow <= grow_top; grow++) {
-                try {
-                    pixels[width][height - grow] = getPixel(pixels, width, height - grow);
-                } catch (Exception ignore) {}
-            }
-            // Bottom
-            for (int grow = 1; grow <= grow_down; grow++) {
-                try {
-                    pixels[width][height + grow] = getPixel(pixels, width, height + grow);
-                } catch (Exception ignore) {}
-            }
-            // Right
-            for (int grow = 1; grow <= grow_right; grow++) {
-                try {
-                    pixels[width + grow][height] = getPixel(pixels, width + grow, height);
-                } catch (Exception ignore) {}
-            }
-            // Left
-            for (int grow = 1; grow <= grow_left; grow++) {
-                try {
-                    pixels[width - grow][height] = getPixel(pixels, width - grow, height);
-                } catch (Exception ignore) {}
-            }
-            // Top-Left
-            for (int grow_top = 0; grow_top < this.grow_top; grow_top++) {
-                for (int grow_left = 1; grow_left <= this.grow_left; grow_left++) {
-                    int min = Math.min(width - grow_left + grow_top, width);
+            for (int column = -grow_left; column <= grow_right; column++) {
+                for (int row = -grow_down; row <= grow_top; row++) {
+                    //<editor-fold desc="Circle">
+                    int temp_width;
+                    int temp_height;
+                    if (column <= 0) {
+                        if (row <= 0) {
+                            // LEFT
+                            temp_width = Math.min(width + column - row, width);
+                            // TOP
+                            temp_height = Math.min(height + row, height);
+                        } else {
+                            // LEFT
+                            temp_width = Math.min(width + column + row, width);
+                            // BOTTOM
+                            temp_height = Math.max(height + row, height);
+                        }
+                    } else {
+                        if (row <= 0) {
+                            // RIGHT
+                            temp_width = Math.max(width + column + row, width);
+                            // TOP
+                            temp_height = Math.min(height + row, height);
+                        } else {
+                            // RIGHT
+                            temp_width = Math.max(width + column - row, width);
+                            // BOTTOM
+                            temp_height = Math.max(height + row, height);
+                        }
+                    }
+                    //</editor-fold>
+
                     try {
-                        pixels[min][height - grow_top] = getPixel(pixels, min, height - grow_top);
-                    } catch (Exception ignore) {}
-                }
-            }
-            // Top-Right
-            for (int grow_top = 0; grow_top < this.grow_top; grow_top++) {
-                for (int grow_right = 1; grow_right <= this.grow_right; grow_right++) {
-                    int max = Math.max(width + grow_right - grow_top,width);
-                    try {
-                        pixels[max][height - grow_top] = getPixel(pixels, max, height - grow_top);
-                    } catch (Exception ignore) {}
-                }
-            }
-            // Bottom-Right
-            for (int grow_down = 0; grow_down < this.grow_down; grow_down++) {
-                for (int grow_right = 1; grow_right <= this.grow_right; grow_right++) {
-                    int max = Math.max(width + grow_right - grow_down, width);
-                    try {
-                        pixels[max][height + grow_down] = getPixel(pixels, max, height + grow_down);
-                    } catch (Exception ignore) {}
-                }
-            }
-            // Bottom-Left
-            for (int grow_down = 0; grow_down < this.grow_down; grow_down++) {
-                for (int grow_left = 1; grow_left <= this.grow_left; grow_left++) {
-                    int min = Math.min(width - grow_left + grow_down, width);
-                    try {
-                        pixels[min][height + grow_down] = getPixel(pixels, min, height + grow_down);
+                        if (pixels[temp_width][temp_height] == null) {
+                            pixels[temp_width][temp_height] = getPixel(pixels, temp_width, temp_height);
+                        }
                     } catch (Exception ignore) {}
                 }
             }
