@@ -11,6 +11,7 @@ public class Crystal {
     private final int grow_right;
     private final int grow_down;
     private final int grow_left;
+    private final int color;
     private final int spawn_time;
     private boolean finished = false;
 
@@ -22,6 +23,7 @@ public class Crystal {
         grow_down = Math.max(object.getInt("grow_down"), 1);
         grow_left = Math.max(object.getInt("grow_left"), 1);
         spawn_time = object.getInt("spawn_time");
+        color = object.getInt("color");
     }
 
     public Pixel[][] grow(Pixel[][] pixels) {

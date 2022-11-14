@@ -6,7 +6,8 @@
     "grow_right": 5,
     "grow_down": 5,
     "grow_left": 5,
-    "spawn_time": 0
+    "spawn_time": 0,
+    "color": 220
   },
   {
     "startPoint_width": 100,
@@ -15,6 +16,7 @@
     "grow_right": 0,
     "grow_down": 0,
     "grow_left": 0,
-    "spawn_time": 5
+    "spawn_time": 5,
+    "color": 240
   }
 ]
