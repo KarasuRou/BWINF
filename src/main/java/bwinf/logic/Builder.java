@@ -6,14 +6,28 @@ import bwinf.model.Pixel;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 public class Builder {
 
     public static void main(String[] args) {
-        for (int x = 0; x <= 0; x++) {
+        for (int x = 0; x < 3; x++) {
             try {
+//                Random random = new Random(Calendar.getInstance().getTimeInMillis());
+//                String json = "[\n";
+//                for (int i = 0; i < 40 + random.nextInt(100); i++) {
+//                    json += "  {\n" +
+//                            "    \"startPoint_width\": "+random.nextInt(1023)+",\n" +
+//                            "    \"startPoint_height\": "+random.nextInt(767)+",\n" +
+//                            "    \"grow_top\": "+(1+random.nextInt(2))+",\n" +
+//                            "    \"grow_right\": "+(1+random.nextInt(2))+",\n" +
+//                            "    \"grow_down\": "+(1+random.nextInt(2))+",\n" +
+//                            "    \"grow_left\": "+(1+random.nextInt(2))+",\n" +
+//                            "    \"spawn_time\": "+random.nextInt(10)+",\n" +
+//                            "    \"color\": "+random.nextInt(240)+"\n" +
+//                            "  },\n";
+//                }
+//                json += "]";
                 JSONObject[] configs = readConfig(x);
 
                 Picture picture = buildPicture(configs);

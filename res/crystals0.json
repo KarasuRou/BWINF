@@ -1,22 +1,422 @@
 [
   {
-    "startPoint_width": 0,
-    "startPoint_height": 0,
-    "grow_top": 5,
-    "grow_right": 5,
-    "grow_down": 5,
-    "grow_left": 5,
-    "spawn_time": 0,
-    "color": 220
+    "startPoint_width": 113,
+    "startPoint_height": 103,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 6,
+    "color": 231
   },
   {
-    "startPoint_width": 100,
-    "startPoint_height": 100,
-    "grow_top": 0,
-    "grow_right": 0,
-    "grow_down": 0,
-    "grow_left": 0,
+    "startPoint_width": 947,
+    "startPoint_height": 710,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 4,
+    "color": 135
+  },
+  {
+    "startPoint_width": 897,
+    "startPoint_height": 760,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 3,
+    "color": 81
+  },
+  {
+    "startPoint_width": 789,
+    "startPoint_height": 289,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 2,
+    "color": 194
+  },
+  {
+    "startPoint_width": 757,
+    "startPoint_height": 135,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 8,
+    "color": 232
+  },
+  {
+    "startPoint_width": 454,
+    "startPoint_height": 199,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 2,
+    "color": 170
+  },
+  {
+    "startPoint_width": 229,
+    "startPoint_height": 219,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 9,
+    "color": 234
+  },
+  {
+    "startPoint_width": 679,
+    "startPoint_height": 549,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 3,
+    "color": 166
+  },
+  {
+    "startPoint_width": 883,
+    "startPoint_height": 408,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 6,
+    "color": 16
+  },
+  {
+    "startPoint_width": 280,
+    "startPoint_height": 557,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 0,
+    "color": 237
+  },
+  {
+    "startPoint_width": 932,
+    "startPoint_height": 512,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 4,
+    "color": 158
+  },
+  {
+    "startPoint_width": 697,
+    "startPoint_height": 310,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 6,
+    "color": 103
+  },
+  {
+    "startPoint_width": 287,
+    "startPoint_height": 184,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 0,
+    "color": 1
+  },
+  {
+    "startPoint_width": 507,
+    "startPoint_height": 761,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 7,
+    "color": 41
+  },
+  {
+    "startPoint_width": 400,
+    "startPoint_height": 317,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 2,
     "spawn_time": 5,
-    "color": 240
+    "color": 124
+  },
+  {
+    "startPoint_width": 964,
+    "startPoint_height": 536,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 5,
+    "color": 31
+  },
+  {
+    "startPoint_width": 31,
+    "startPoint_height": 458,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 1,
+    "color": 33
+  },
+  {
+    "startPoint_width": 340,
+    "startPoint_height": 13,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 9,
+    "color": 109
+  },
+  {
+    "startPoint_width": 775,
+    "startPoint_height": 210,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 3,
+    "color": 138
+  },
+  {
+    "startPoint_width": 423,
+    "startPoint_height": 0,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 4,
+    "color": 103
+  },
+  {
+    "startPoint_width": 138,
+    "startPoint_height": 255,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 1,
+    "color": 34
+  },
+  {
+    "startPoint_width": 94,
+    "startPoint_height": 705,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 7,
+    "color": 157
+  },
+  {
+    "startPoint_width": 411,
+    "startPoint_height": 466,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 4,
+    "color": 104
+  },
+  {
+    "startPoint_width": 978,
+    "startPoint_height": 643,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 4,
+    "color": 65
+  },
+  {
+    "startPoint_width": 135,
+    "startPoint_height": 97,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 1,
+    "color": 90
+  },
+  {
+    "startPoint_width": 964,
+    "startPoint_height": 139,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 1,
+    "color": 7
+  },
+  {
+    "startPoint_width": 520,
+    "startPoint_height": 328,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 0,
+    "color": 142
+  },
+  {
+    "startPoint_width": 499,
+    "startPoint_height": 254,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 9,
+    "color": 177
+  },
+  {
+    "startPoint_width": 911,
+    "startPoint_height": 501,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 9,
+    "color": 207
+  },
+  {
+    "startPoint_width": 695,
+    "startPoint_height": 645,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 7,
+    "color": 134
+  },
+  {
+    "startPoint_width": 341,
+    "startPoint_height": 525,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 0,
+    "color": 3
+  },
+  {
+    "startPoint_width": 341,
+    "startPoint_height": 678,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 3,
+    "color": 22
+  },
+  {
+    "startPoint_width": 794,
+    "startPoint_height": 57,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 8,
+    "color": 131
+  },
+  {
+    "startPoint_width": 216,
+    "startPoint_height": 280,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 1,
+    "color": 207
+  },
+  {
+    "startPoint_width": 680,
+    "startPoint_height": 744,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 4,
+    "color": 170
+  },
+  {
+    "startPoint_width": 860,
+    "startPoint_height": 134,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 6,
+    "color": 102
+  },
+  {
+    "startPoint_width": 719,
+    "startPoint_height": 201,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 1,
+    "color": 23
+  },
+  {
+    "startPoint_width": 111,
+    "startPoint_height": 197,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 0,
+    "color": 104
+  },
+  {
+    "startPoint_width": 960,
+    "startPoint_height": 498,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 5,
+    "color": 123
+  },
+  {
+    "startPoint_width": 421,
+    "startPoint_height": 708,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 5,
+    "color": 199
+  },
+  {
+    "startPoint_width": 323,
+    "startPoint_height": 442,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 0,
+    "color": 62
+  },
+  {
+    "startPoint_width": 515,
+    "startPoint_height": 300,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 5,
+    "color": 152
   }
 ]

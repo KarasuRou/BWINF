@@ -1,0 +1,622 @@
+[
+  {
+    "startPoint_width": 198,
+    "startPoint_height": 64,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 8,
+    "color": 103
+  },
+  {
+    "startPoint_width": 419,
+    "startPoint_height": 34,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 3,
+    "color": 170
+  },
+  {
+    "startPoint_width": 416,
+    "startPoint_height": 611,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 3,
+    "color": 27
+  },
+  {
+    "startPoint_width": 170,
+    "startPoint_height": 275,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 0,
+    "color": 48
+  },
+  {
+    "startPoint_width": 757,
+    "startPoint_height": 672,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 0,
+    "color": 234
+  },
+  {
+    "startPoint_width": 805,
+    "startPoint_height": 43,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 5,
+    "color": 154
+  },
+  {
+    "startPoint_width": 572,
+    "startPoint_height": 490,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 2,
+    "color": 18
+  },
+  {
+    "startPoint_width": 53,
+    "startPoint_height": 48,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 7,
+    "color": 147
+  },
+  {
+    "startPoint_width": 446,
+    "startPoint_height": 175,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 3,
+    "color": 44
+  },
+  {
+    "startPoint_width": 739,
+    "startPoint_height": 260,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 4,
+    "color": 41
+  },
+  {
+    "startPoint_width": 536,
+    "startPoint_height": 528,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 4,
+    "color": 179
+  },
+  {
+    "startPoint_width": 539,
+    "startPoint_height": 159,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 3,
+    "color": 189
+  },
+  {
+    "startPoint_width": 272,
+    "startPoint_height": 19,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 7,
+    "color": 199
+  },
+  {
+    "startPoint_width": 363,
+    "startPoint_height": 285,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 6,
+    "color": 180
+  },
+  {
+    "startPoint_width": 102,
+    "startPoint_height": 597,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 1,
+    "color": 17
+  },
+  {
+    "startPoint_width": 124,
+    "startPoint_height": 229,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 6,
+    "color": 45
+  },
+  {
+    "startPoint_width": 128,
+    "startPoint_height": 94,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 4,
+    "color": 174
+  },
+  {
+    "startPoint_width": 953,
+    "startPoint_height": 294,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 8,
+    "color": 185
+  },
+  {
+    "startPoint_width": 262,
+    "startPoint_height": 620,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 7,
+    "color": 78
+  },
+  {
+    "startPoint_width": 546,
+    "startPoint_height": 268,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 5,
+    "color": 7
+  },
+  {
+    "startPoint_width": 179,
+    "startPoint_height": 262,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 8,
+    "color": 211
+  },
+  {
+    "startPoint_width": 213,
+    "startPoint_height": 763,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 3,
+    "color": 55
+  },
+  {
+    "startPoint_width": 891,
+    "startPoint_height": 668,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 4,
+    "color": 189
+  },
+  {
+    "startPoint_width": 825,
+    "startPoint_height": 540,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 2,
+    "color": 75
+  },
+  {
+    "startPoint_width": 277,
+    "startPoint_height": 531,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 2,
+    "color": 66
+  },
+  {
+    "startPoint_width": 826,
+    "startPoint_height": 387,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 8,
+    "color": 34
+  },
+  {
+    "startPoint_width": 214,
+    "startPoint_height": 428,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 4,
+    "color": 83
+  },
+  {
+    "startPoint_width": 572,
+    "startPoint_height": 365,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 4,
+    "color": 196
+  },
+  {
+    "startPoint_width": 446,
+    "startPoint_height": 4,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 3,
+    "color": 218
+  },
+  {
+    "startPoint_width": 69,
+    "startPoint_height": 290,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 4,
+    "color": 145
+  },
+  {
+    "startPoint_width": 725,
+    "startPoint_height": 393,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 3,
+    "color": 76
+  },
+  {
+    "startPoint_width": 265,
+    "startPoint_height": 424,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 3,
+    "color": 65
+  },
+  {
+    "startPoint_width": 422,
+    "startPoint_height": 317,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 6,
+    "color": 75
+  },
+  {
+    "startPoint_width": 944,
+    "startPoint_height": 202,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 1,
+    "color": 182
+  },
+  {
+    "startPoint_width": 346,
+    "startPoint_height": 453,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 9,
+    "color": 201
+  },
+  {
+    "startPoint_width": 145,
+    "startPoint_height": 649,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 1,
+    "color": 121
+  },
+  {
+    "startPoint_width": 331,
+    "startPoint_height": 402,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 2,
+    "color": 10
+  },
+  {
+    "startPoint_width": 256,
+    "startPoint_height": 711,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 5,
+    "color": 153
+  },
+  {
+    "startPoint_width": 504,
+    "startPoint_height": 662,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 5,
+    "color": 231
+  },
+  {
+    "startPoint_width": 892,
+    "startPoint_height": 491,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 6,
+    "color": 46
+  },
+  {
+    "startPoint_width": 737,
+    "startPoint_height": 601,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 7,
+    "color": 34
+  },
+  {
+    "startPoint_width": 864,
+    "startPoint_height": 371,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 1,
+    "color": 177
+  },
+  {
+    "startPoint_width": 218,
+    "startPoint_height": 161,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 1,
+    "color": 154
+  },
+  {
+    "startPoint_width": 971,
+    "startPoint_height": 585,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 5,
+    "color": 209
+  },
+  {
+    "startPoint_width": 715,
+    "startPoint_height": 143,
+    "grow_top": 2,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 8,
+    "color": 181
+  },
+  {
+    "startPoint_width": 34,
+    "startPoint_height": 159,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 2,
+    "color": 31
+  },
+  {
+    "startPoint_width": 540,
+    "startPoint_height": 537,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 9,
+    "color": 136
+  },
+  {
+    "startPoint_width": 38,
+    "startPoint_height": 547,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 1,
+    "color": 237
+  },
+  {
+    "startPoint_width": 752,
+    "startPoint_height": 306,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 0,
+    "color": 239
+  },
+  {
+    "startPoint_width": 685,
+    "startPoint_height": 90,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 1,
+    "color": 200
+  },
+  {
+    "startPoint_width": 247,
+    "startPoint_height": 491,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 4,
+    "color": 2
+  },
+  {
+    "startPoint_width": 525,
+    "startPoint_height": 187,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 4,
+    "color": 226
+  },
+  {
+    "startPoint_width": 848,
+    "startPoint_height": 346,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 4,
+    "color": 42
+  },
+  {
+    "startPoint_width": 407,
+    "startPoint_height": 6,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 9,
+    "color": 206
+  },
+  {
+    "startPoint_width": 871,
+    "startPoint_height": 324,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 2,
+    "color": 172
+  },
+  {
+    "startPoint_width": 664,
+    "startPoint_height": 19,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 9,
+    "color": 95
+  },
+  {
+    "startPoint_width": 911,
+    "startPoint_height": 725,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 6,
+    "color": 77
+  },
+  {
+    "startPoint_width": 108,
+    "startPoint_height": 544,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 2,
+    "spawn_time": 2,
+    "color": 203
+  },
+  {
+    "startPoint_width": 410,
+    "startPoint_height": 662,
+    "grow_top": 1,
+    "grow_right": 2,
+    "grow_down": 2,
+    "grow_left": 2,
+    "spawn_time": 4,
+    "color": 237
+  },
+  {
+    "startPoint_width": 320,
+    "startPoint_height": 373,
+    "grow_top": 2,
+    "grow_right": 1,
+    "grow_down": 1,
+    "grow_left": 1,
+    "spawn_time": 1,
+    "color": 205
+  },
+  {
+    "startPoint_width": 176,
+    "startPoint_height": 648,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 9,
+    "color": 191
+  },
+  {
+    "startPoint_width": 684,
+    "startPoint_height": 225,
+    "grow_top": 1,
+    "grow_right": 1,
+    "grow_down": 2,
+    "grow_left": 1,
+    "spawn_time": 2,
+    "color": 186
+  }
+]

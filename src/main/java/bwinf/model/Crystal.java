@@ -36,7 +36,7 @@ public class Crystal {
                 } else {
                     finished = true;
                 }
-            } else if (passthroughs == 60) {
+            } else if (passthroughs == 5000) {
                 finished = true;
             } else if (passthroughs == spawn_time+1) {
                 if (pixels[startPoint_width][startPoint_height] != null && pixels[startPoint_width][startPoint_height].getId() == id) {
@@ -78,6 +78,7 @@ public class Crystal {
         if (pixels[width][height] == null) {
             pixels[width][height] = getPixel(pixels, width, height);
         } else if (pixels[width][height] != null && pixels[width][height].getId() == id) {
+            finished = true;
             for (int column = -grow_left; column <= grow_right; column++) {
                 for (int row = -grow_down; row <= grow_top; row++) {
                     //<editor-fold desc="Circle">
@@ -113,6 +114,7 @@ public class Crystal {
                     try {
                         if (pixels[temp_width][temp_height] == null) {
                             pixels[temp_width][temp_height] = getPixel(pixels, temp_width, temp_height);
+                            finished = false;
                         }
                     } catch (Exception ignore) {}
                 }

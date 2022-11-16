@@ -66,6 +66,9 @@ public class Picture {
 
         for (int width = 0; width < this.width; width++) {
             for (int height = 0; height < this.height; height++) {
+                // Unerwarteter Fehlerfall wird abgefangen
+                if (getPixel(width,height) == null)
+                    setPixel(width, height, new Pixel(223, 223, 223));
                 int red = getPixel(width, height).getRed();
                 int green = getPixel(width, height).getGreen();
                 int blue = getPixel(width, height).getBlue();
